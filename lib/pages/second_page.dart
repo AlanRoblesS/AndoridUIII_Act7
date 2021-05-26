@@ -45,6 +45,13 @@ class SecondPage extends StatelessWidget {
                       icon: Icon(Icons.email)
                     ),
                   )//Fin de textfield
+                  SizedBox(height: 40,),
+                  TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Contraseña',
+                      icon: Icon(Icons.vpn_key)
+                    ),
+                  )//Fin de textfield
                 ],//Fin de widget[]
               ),//Fin de columna
             ]//Fin de widget[]
