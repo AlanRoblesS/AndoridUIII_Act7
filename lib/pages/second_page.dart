@@ -25,18 +25,20 @@ class SecondPage extends StatelessWidget {
               SizedBox(height: 40,),
               Column(
                 children: <Widget>[
-                  padding: EdgeInsets.all(2.0),
-                  child: Stack(
-                    children: <Widget>[
-                      Align(
-                        child: new Image(
-                          width: 300.0,
-                          height: 200.0,
-                          image: new AssetImage('assets/images/burguer.png')
-                        )
-                      )//Fin de align
-                    ],//Fin de widget
-                  ),//Fin de stack
+                  Container(
+                    padding: EdgeInsets.all(2.0),
+                    child: Stack(
+                      children: <Widget>[
+                        Align(
+                          child: new Image(
+                            width: 300.0,
+                            height: 200.0,
+                            image: new AssetImage('assets/images/burguer.png')
+                          )
+                      ) //Fin de align
+                      ],//Fin de widget
+                    ),//Fin de stack
+                  ),//Fin de container
                 ],//Fin de widget[]
               ),//Fin de columna
             ]//Fin de widget[]
