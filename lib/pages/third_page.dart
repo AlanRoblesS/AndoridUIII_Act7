@@ -63,8 +63,8 @@ class _ThirdPageState extends State<ThirdPage> {
             ),//Fin de container
             SizedBox(height: 20.0,),
             Container(
-              height: 200,
-              width: 250,
+              height: 50,
+              width: 100,
               decoration: ShapeDecoration(shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0)
               ),
