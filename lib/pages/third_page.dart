@@ -83,6 +83,26 @@ class _ThirdPageState extends State<ThirdPage> {
                   fontWeight: FontWeight.w500),
                 ),//Fin de text
             ),//Fin de container
+            SizedBox(height: 20.0,),
+            Container(
+              padding: EdgeInsets.all(10),
+              decoration: ShapeDecoration(shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(30.0)
+              ),
+              gradient: LinearGradient(
+                colors: blueGradients,
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                )
+              ),
+              child: Text('Hola',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color:Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500),
+                ),//Fin de text
+            ),//Fin de container
           ],//Fin de widget
         ),//Fin de columna
         )//Fin de singlescroll
