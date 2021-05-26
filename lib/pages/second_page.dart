@@ -55,15 +55,17 @@ class SecondPage extends StatelessWidget {
                   SizedBox(height: 40,),
                   Row(
                     children: <Widget>[
+                      Center(
                       RaisedButton(
-                        color: Colors.red,
-                        child: Text('Iniciar sesion'), onPressed: (){}
+                        color: Colors.blue,
+                        child: Text('Iniciar sesion', style: TextStyle(color: Colors.white),), onPressed: (){}
                       ),
                       SizedBox(width: 30,),
                       RaisedButton(
-                        color: Colors.blue,
+                        color: Colors.red,
                         child: Text('Cancelar', style: TextStyle(color: Colors.white),), onPressed: (){}
                       ),
+                      )
                     ]//Fin de widget[]
                   ),//Fin de row
                 ],//Fin de widget[]
