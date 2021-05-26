@@ -88,7 +88,7 @@ class _ThirdPageState extends State<ThirdPage> {
               onTap: (){
                 print('hola jeje');
               },
-            Container(
+            child: Container(
               padding: EdgeInsets.all(10),
               decoration: ShapeDecoration(
                 shape: CircleBorder(),
