@@ -11,7 +11,7 @@ const List<Color> orangeGradients = [
   Color(0xFFFD7267),
 ];
 
-const List<Color> purpleGardients = [
+const List<Color> purpleGradients = [
   Color(0xFF7700FF),
   Color(0xFF8351D4),
   Color(0xFF764C8A),
