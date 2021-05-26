@@ -35,7 +35,7 @@ class _ThirdPageState extends State<ThirdPage> {
               color: Colors.pink,
               height: 200,
               width: 350,
-            )
+            ),
             SizedBox(height: 20.0,),
             Container(
               height: 200,
