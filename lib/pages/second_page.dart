@@ -53,7 +53,7 @@ class SecondPage extends StatelessWidget {
                     ),
                   )//Fin de textfield
                   SizedBox(height: 40,),
-                  CupertinoButton(
+                  RaisedButton(
                     color: Colors.red,
                     borderRadius: BorderRadius.circular(50.0),
                     child: Text('Iniciar sesion'), onPressed: (){}),
