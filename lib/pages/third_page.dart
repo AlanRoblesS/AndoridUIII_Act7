@@ -86,22 +86,17 @@ class _ThirdPageState extends State<ThirdPage> {
             SizedBox(height: 20.0,),
             Container(
               padding: EdgeInsets.all(10),
-              decoration: ShapeDecoration(shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(30.0)
-              ),
-              gradient: LinearGradient(
-                colors: blueGradients,
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
+              decoration: ShapeDecoration(
+                shape: CircleBorder(),
+                gradient: LinearGradient(
+                  colors: blueGradients,
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
                 )
               ),
-              child: Text('Hola',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color:Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w500),
-                ),//Fin de text
+              child: ImageIcon(
+                AssetImage('assets/images/restapi.jpg')
+              )
             ),//Fin de container
           ],//Fin de widget
         ),//Fin de columna
