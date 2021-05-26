@@ -87,7 +87,7 @@ class _ThirdPageState extends State<ThirdPage> {
             InkWell(
               onTap: (){
                 print('hola jeje');
-              }
+              },
             Container(
               padding: EdgeInsets.all(10),
               decoration: ShapeDecoration(
