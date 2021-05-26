@@ -27,17 +27,18 @@ class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: ConstrainedBox(constraints: BoxConstraints(maxWidth: 300, minWidth: 200, ), ),
-      child: Column(
-        children: <Widget>[
-          SizedBox(height: 80.0,),
-          Container(
-            color: Colors.pink,
-            height: 200,
-            width: 350,
-          )
-        ],//Fin de widget
-      ),//Fin de columna
+      child: ConstrainedBox(constraints: BoxConstraints(maxWidth: 300, minWidth: 200, ), 
+        child: Column(
+          children: <Widget>[
+            SizedBox(height: 80.0,),
+            Container(
+              color: Colors.pink,
+              height: 200,
+              width: 350,
+            )
+          ],//Fin de widget
+        ),//Fin de columna
+      ),//Fin de constrainedbox
     ); //Fin de material
   } //Fin de widget build
 } //Fin de clase thirdpagestate
