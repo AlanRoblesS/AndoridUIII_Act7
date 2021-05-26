@@ -5,7 +5,7 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ui.Size logicalSize = MediaQuery.of(context).size;
-    final double _height = logicalSize.height
+    final double _height = logicalSize.height;
     return Scaffold(
       resizeToAvoidBottomPadding: false,
       body: SafeArea(
