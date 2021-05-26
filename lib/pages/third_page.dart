@@ -51,7 +51,9 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
               child: Container(
                 padding: EdgeInsets.only(top: 35.0, bottom: 16.0),
-                child: Text('Iniciando', style: TextStyle(
+                child: Text('Iniciando',
+                textAlign: TextAlign.center,
+                style: TextStyle(
                   color:Colors.white,
                   fontSize: 38,
                   fontWeight: FontWeight.bold
