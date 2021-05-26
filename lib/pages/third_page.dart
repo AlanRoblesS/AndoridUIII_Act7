@@ -75,16 +75,13 @@ class _ThirdPageState extends State<ThirdPage> {
                 end: Alignment.bottomRight,
                 )
               ),
-              child: Container(
-                padding: EdgeInsets.only(top: 35.0, bottom: 16.0),
-                child: Text('Iniciando',
+              child: Text('Hola',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color:Colors.white,
-                  fontSize: 38,
-                  fontWeight: FontWeight.bold
-                ),),
-              )//Fin de container
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500),
+                ),//Fin de text
             ),//Fin de container
           ],//Fin de widget
         ),//Fin de columna
