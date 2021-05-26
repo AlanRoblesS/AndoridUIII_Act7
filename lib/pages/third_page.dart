@@ -36,6 +36,16 @@ class _ThirdPageState extends State<ThirdPage> {
               height: 200,
               width: 350,
             )
+            SizedBox(height: 20.0,),
+            Container(
+              height: 200,
+              width: 250,
+              decoration: ShapeDecoration(shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(30.0)
+              ),
+              gradient: LinearGradient(colors: orangeGradients)
+              ),
+            ),
           ],//Fin de widget
         ),//Fin de columna
       ),//Fin de constrainedbox
