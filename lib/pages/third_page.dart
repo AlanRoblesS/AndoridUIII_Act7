@@ -95,7 +95,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 )
               ),
               child: ImageIcon(
-                AssetImage('assets/images/restapi.jpg')
+                AssetImage('assets/images/restapi.png')
               )
             ),//Fin de container
           ],//Fin de widget
