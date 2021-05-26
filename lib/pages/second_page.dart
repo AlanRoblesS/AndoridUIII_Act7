@@ -44,7 +44,7 @@ class SecondPage extends StatelessWidget {
                       hintText: 'Email',
                       icon: Icon(Icons.email)
                     ),
-                  )//Fin de textfield
+                  ),//Fin de textfield
                   SizedBox(height: 40,),
                   TextField(
                     decoration: InputDecoration(
