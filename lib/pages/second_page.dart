@@ -52,6 +52,11 @@ class SecondPage extends StatelessWidget {
                       icon: Icon(Icons.vpn_key)
                     ),
                   )//Fin de textfield
+                  SizedBox(height: 40,),
+                  CupertinoButton(
+                    color: Colors.red,
+                    borderRadius: BorderRadius.circular(50.0),
+                    child: Text('Iniciar sesion'), onPressed: (){}),
                 ],//Fin de widget[]
               ),//Fin de columna
             ]//Fin de widget[]
