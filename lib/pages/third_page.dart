@@ -43,9 +43,21 @@ class _ThirdPageState extends State<ThirdPage> {
               decoration: ShapeDecoration(shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0)
               ),
-              gradient: LinearGradient(colors: orangeGradients)
+              gradient: LinearGradient(
+                colors: orangeGradients
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                )
               ),
-            ),
+              child: Container(
+                padding: EdgeInsets.only(top: 35.0, bottom: 16.0),
+                child: Text('Iniciando', style: TextStyle(
+                  color:Colors.white,
+                  fontSize: 38,
+                  fontWeight: FontWeight.bold
+                ),),
+              )//Fin de container
+            ),//Fin de container
           ],//Fin de widget
         ),//Fin de columna
       ),//Fin de constrainedbox
