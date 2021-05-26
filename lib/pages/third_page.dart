@@ -65,11 +65,12 @@ class _ThirdPageState extends State<ThirdPage> {
             Container(
               height: 50,
               width: 100,
+              alignment: Alignment.center,
               decoration: ShapeDecoration(shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0)
               ),
               gradient: LinearGradient(
-                colors: orangeGradients,
+                colors: purpleGradients,
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
                 )
