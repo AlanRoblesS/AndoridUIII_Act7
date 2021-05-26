@@ -38,6 +38,13 @@ class SecondPage extends StatelessWidget {
                       ],//Fin de widget
                     ),//Fin de stack
                   ),//Fin de container
+                  SizedBox(height: 40,),
+                  TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Email',
+                      icon: Icon(Icons.email)
+                    ),
+                  )//Fin de textfield
                 ],//Fin de widget[]
               ),//Fin de columna
             ]//Fin de widget[]
