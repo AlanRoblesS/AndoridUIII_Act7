@@ -84,6 +84,10 @@ class _ThirdPageState extends State<ThirdPage> {
                 ),//Fin de text
             ),//Fin de container
             SizedBox(height: 20.0,),
+            InkWell(
+              onTap: (){
+                print('hola jeje');
+              }
             Container(
               padding: EdgeInsets.all(10),
               decoration: ShapeDecoration(
@@ -100,6 +104,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 color: Colors.white
               )
             ),//Fin de container
+            ),
           ],//Fin de widget
         ),//Fin de columna
         )//Fin de singlescroll
