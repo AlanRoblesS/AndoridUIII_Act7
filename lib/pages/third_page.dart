@@ -12,7 +12,7 @@ const List<Color> orangeGradients = [
 ];
 
 const List<Color> purpleGardients = [
-  Color(Colors.purple),
+  Color(0xFF7700FF),
   Color(Colors.purple),
   Color(Colors.purple),
 ];
